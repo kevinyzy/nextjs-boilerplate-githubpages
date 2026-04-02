@@ -43,3 +43,11 @@ const nextConfig = {
   }
   
   module.exports = nextConfig
+
+// 4. 静态导出模式不适合部署服务器，本地开发默认配置
+/** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   /* config options here */
+// };
+
+// export default nextConfig;
